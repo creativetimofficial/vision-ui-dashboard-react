@@ -1,0 +1,75 @@
+/*!
+
+=========================================================
+* Vision UI Free React - v1.0.0
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/vision-ui-free-react
+* Copyright 2021 Creative Tim (https://www.creative-tim.com/)
+* Licensed under MIT (https://github.com/creativetimofficial/vision-ui-free-react/blob/master LICENSE.md)
+
+* Design and Coded by Simmmple & Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+*/
+
+// Vision UI Dashboard React base styles
+import breakpoints from "assets/theme/base/breakpoints";
+
+// Vision UI Dashboard React helper functions
+import pxToRem from "assets/theme/functions/pxToRem";
+
+const {
+  values: { sm, md, lg, xl, xxl },
+} = breakpoints;
+
+const SM = `@media (min-width: ${sm}px)`;
+const MD = `@media (min-width: ${md}px)`;
+const LG = `@media (min-width: ${lg}px)`;
+const XL = `@media (min-width: ${xl}px)`;
+const XXL = `@media (min-width: ${xxl}px)`;
+
+const sharedClasses = {
+  paddingRight: `${pxToRem(24)} !important`,
+  paddingLeft: `${pxToRem(24)} !important`,
+  marginRight: "auto !important",
+  marginLeft: "auto !important",
+  width: "100% !important",
+  position: "relative",
+};
+
+export default {
+  [SM]: {
+    ".MuiContainer-root": {
+      ...sharedClasses,
+      maxWidth: "540px !important",
+    },
+  },
+  [MD]: {
+    ".MuiContainer-root": {
+      ...sharedClasses,
+      maxWidth: "720px !important",
+    },
+  },
+  [LG]: {
+    ".MuiContainer-root": {
+      ...sharedClasses,
+      maxWidth: "960px !important",
+    },
+  },
+  [XL]: {
+    ".MuiContainer-root": {
+      ...sharedClasses,
+      maxWidth: "1140px !important",
+    },
+  },
+  [XXL]: {
+    ".MuiContainer-root": {
+      ...sharedClasses,
+      maxWidth: "1320px !important",
+    },
+  },
+};
