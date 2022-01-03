@@ -163,51 +163,48 @@ function Configurator() {
             ))}
           </VuiBox>
         </VuiBox>
-                {
-                  window.innerWidth >= 1440 
-                    && (
-                      <VuiBox mt={3} lineHeight={1}>
-          <VuiTypography variant="h6" color="white">
-            Sidenav Type
-          </VuiTypography>
-          <VuiTypography variant="button" color="text" fontWeight="regular">
-            Choose between 2 different sidenav types.
-          </VuiTypography>
+        {window.innerWidth >= 1440 && (
+          <VuiBox mt={3} lineHeight={1}>
+            <VuiTypography variant="h6" color="white">
+              Sidenav Type
+            </VuiTypography>
+            <VuiTypography variant="button" color="text" fontWeight="regular">
+              Choose between 2 different sidenav types.
+            </VuiTypography>
 
-          <VuiBox
-            sx={{
-              display: "flex",
-              mt: 2,
-            }}
-          >
-            <VuiButton
-              color="info"
-              variant={transparentSidenav ? "contained" : "outlined"}
-              onClick={handleTransparentSidenav}
-              disabled={disabled}
-              fullWidth
+            <VuiBox
               sx={{
-                mr: 1,
-                ...sidenavTypeButtonsStyles,
+                display: "flex",
+                mt: 2,
               }}
             >
-              Transparent
-            </VuiButton>
-            <VuiButton
-              color="info"
-              variant={transparentSidenav ? "outlined" : "contained"}
-              onClick={handleWhiteSidenav}
-              disabled={disabled}
-              fullWidth
-              sx={sidenavTypeButtonsStyles}
-            >
-              Opaque
-            </VuiButton>
+              <VuiButton
+                color="info"
+                variant={transparentSidenav ? "contained" : "outlined"}
+                onClick={handleTransparentSidenav}
+                disabled={disabled}
+                fullWidth
+                sx={{
+                  mr: 1,
+                  ...sidenavTypeButtonsStyles,
+                }}
+              >
+                Transparent
+              </VuiButton>
+              <VuiButton
+                color="info"
+                variant={transparentSidenav ? "outlined" : "contained"}
+                onClick={handleWhiteSidenav}
+                disabled={disabled}
+                fullWidth
+                sx={sidenavTypeButtonsStyles}
+              >
+                Opaque
+              </VuiButton>
+            </VuiBox>
           </VuiBox>
-        </VuiBox>
-                    )
-                }
-        
+        )}
+
         <VuiBox mt={3} mb={2} lineHeight={1}>
           <VuiTypography variant="h6" color="white">
             Navbar Fixed
