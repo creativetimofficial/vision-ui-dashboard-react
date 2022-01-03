@@ -223,7 +223,7 @@ function Configurator() {
           <VuiBox mb={2}>
             <VuiButton
               component={Link}
-              href="https://www.creative-tim.com/product/vision-ui-dashboard-react"
+              href="https://www.creative-tim.com/product/vision-ui-dashboard-react?ref=creativetim-vudreact"
               target="_blank"
               rel="noreferrer"
               color="info"
@@ -235,7 +235,7 @@ function Configurator() {
           </VuiBox>
           <VuiButton
             component={Link}
-            href="https://www.creative-tim.com/learning-lab/react/quick-start/vision-ui-dashboard"
+            href="https://www.creative-tim.com/learning-lab/react/quick-start/vision-ui-dashboard?ref=creativetim-vudreact"
             target="_blank"
             rel="noreferrer"
             color="info"
@@ -247,7 +247,7 @@ function Configurator() {
         </VuiBox>
         <VuiBox display="flex" justifyContent="center">
           <GitHubButton
-            href="https://github.com/creativetimofficial/vision-ui-dashboard-react"
+            href="https://github.com/creativetimofficial/vision-ui-dashboard-react?ref=creativetim-vudreact"
             data-icon="octicon-star"
             data-size="large"
             data-show-count="true"

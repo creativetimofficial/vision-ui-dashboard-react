@@ -64,11 +64,10 @@ function SidenavCard({ color, ...rest }) {
           </VuiBox>
           <VuiButton
             component={Link}
-            href="https://www.creative-tim.com/learning-lab/react/quick-start/vision-ui-dashboard"
+            href="https://www.creative-tim.com/learning-lab/react/quick-start/vision-ui-dashboard?ref=creativetim-vudreact"
             target="_blank"
             rel="noreferrer"
             size="small"
-            // sx={{ color: "white !important", background: "red" }}
             sx={({ palette: { gradients, white }, functions: { linearGradient } }) => ({
               color: `${white.main} !important`,
               background: linearGradient(

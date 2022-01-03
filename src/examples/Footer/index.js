@@ -41,7 +41,7 @@ function Footer() {
           <VuiTypography
             component="a"
             variant="button"
-            href="https://simmmple.com/"
+            href="https://simmmple.com/ref=creativetim-vudreact"
             sx={{ textAlign: "center", fontWeight: "500 !important" }}
             color="white"
             mr="2px"
@@ -54,7 +54,7 @@ function Footer() {
             mr="2px"
             component="a"
             variant="button"
-            href="https://www.creative-tim.com/"
+            href="https://www.creative-tim.com/ref=creativetim-vudreact"
             sx={{ textAlign: "center", fontWeight: "500 !important" }}
             color="white"
           >
@@ -68,7 +68,7 @@ function Footer() {
           <VuiBox mr={{ xs: "20px", lg: "46px" }}>
             <VuiTypography
               component="a"
-              href="https://www.creative-tim.com/templates"
+              href="https://www.creative-tim.com/templates/ref=creativetim-vudreact"
               variant="body2"
               color="white"
             >
@@ -78,7 +78,7 @@ function Footer() {
           <VuiBox mr={{ xs: "20px", lg: "46px" }}>
             <VuiTypography
               component="a"
-              href="https://www.creative-tim.com/blog/"
+              href="https://www.creative-tim.com/blog/ref=creativetim-vudreact"
               variant="body2"
               color="white"
             >
@@ -88,7 +88,7 @@ function Footer() {
           <VuiBox>
             <VuiTypography
               component="a"
-              href="https://www.creative-tim.com/license"
+              href="https://www.creative-tim.com/license/ref=creativetim-vudreact"
               variant="body2"
               color="white"
             >
