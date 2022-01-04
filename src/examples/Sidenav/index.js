@@ -142,7 +142,15 @@ function Sidenav({ color, brandName, routes, ...rest }) {
 
   return (
     <SidenavRoot {...rest} variant="permanent" ownerState={{ transparentSidenav, miniSidenav }}>
-      <VuiBox pt={3} pb={1} px={4} textAlign="center" sx={{ overflow: "unset !important" }}>
+      <VuiBox
+        pt={3.5}
+        pb={0.5}
+        px={4}
+        textAlign="center"
+        sx={{
+          overflow: "unset !important",
+        }}
+      >
         <VuiBox
           display={{ xs: "block", xl: "none" }}
           position="absolute"
@@ -201,7 +209,22 @@ function Sidenav({ color, brandName, routes, ...rest }) {
       </VuiBox>
       <Divider light />
       <List>{renderRoutes}</List>
-      <VuiBox pt={2} my={2} mx={2} mt="auto">
+      <VuiBox
+        my={2}
+        mx={2}
+        mt="auto"
+        sx={({ breakpoints }) => ({
+          [breakpoints.up("xl")]: {
+            pt: 2,
+          },
+          [breakpoints.only("xl")]: {
+            pt: 1,
+          },
+          [breakpoints.down("xl")]: {
+            pt: 2,
+          },
+        })}
+      >
         <SidenavCard color={color} />
         <VuiBox mt={2}>
           <VuiButton
