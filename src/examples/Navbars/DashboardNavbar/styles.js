@@ -142,17 +142,17 @@ const navbarRow = ({ breakpoints, palette: { white } }, { isMini }) => ({
   },
 });
 
-const navbarIconButton = ({ typography: { size }, breakpoints, palette: { grey } }) => ({
+const navbarIconButton = ({ typography: { size }, breakpoints, palette: { grey, white } }) => ({
   px: 0.75,
 
   "& .material-icons, .material-icons-round": {
     fontSize: `${size.md} !important`,
-    color: grey[500],
+    color: white.main,
   },
 
   "& .MuiTypography-root": {
     display: "none",
-    color: grey[500],
+    color: white.main,
 
     [breakpoints.up("sm")]: {
       display: "inline-block",
