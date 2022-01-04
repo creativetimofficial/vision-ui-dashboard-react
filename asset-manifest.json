@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/vision-ui-dashboard-react/static/css/main.76b9aba2.chunk.css",
-    "main.js": "/vision-ui-dashboard-react/static/js/main.050f95ac.chunk.js",
-    "main.js.map": "/vision-ui-dashboard-react/static/js/main.050f95ac.chunk.js.map",
+    "main.js": "/vision-ui-dashboard-react/static/js/main.2d257632.chunk.js",
+    "main.js.map": "/vision-ui-dashboard-react/static/js/main.2d257632.chunk.js.map",
     "runtime-main.js": "/vision-ui-dashboard-react/static/js/runtime-main.a09121f6.js",
     "runtime-main.js.map": "/vision-ui-dashboard-react/static/js/runtime-main.a09121f6.js.map",
     "static/js/2.225428de.chunk.js": "/vision-ui-dashboard-react/static/js/2.225428de.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "/vision-ui-dashboard-react/index.html",
     "static/css/main.76b9aba2.chunk.css.map": "/vision-ui-dashboard-react/static/css/main.76b9aba2.chunk.css.map",
     "static/js/2.225428de.chunk.js.LICENSE.txt": "/vision-ui-dashboard-react/static/js/2.225428de.chunk.js.LICENSE.txt",
-    "static/js/main.050f95ac.chunk.js.LICENSE.txt": "/vision-ui-dashboard-react/static/js/main.050f95ac.chunk.js.LICENSE.txt",
+    "static/js/main.2d257632.chunk.js.LICENSE.txt": "/vision-ui-dashboard-react/static/js/main.2d257632.chunk.js.LICENSE.txt",
     "static/media/avatar1.ce022770.png": "/vision-ui-dashboard-react/static/media/avatar1.ce022770.png",
     "static/media/avatar2.e81efbfa.png": "/vision-ui-dashboard-react/static/media/avatar2.e81efbfa.png",
     "static/media/avatar3.37c832d1.png": "/vision-ui-dashboard-react/static/media/avatar3.37c832d1.png",
@@ -44,6 +44,6 @@
     "static/js/runtime-main.a09121f6.js",
     "static/js/2.225428de.chunk.js",
     "static/css/main.76b9aba2.chunk.css",
-    "static/js/main.050f95ac.chunk.js"
+    "static/js/main.2d257632.chunk.js"
   ]
 }
