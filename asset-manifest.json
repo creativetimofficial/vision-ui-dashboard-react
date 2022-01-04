@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/vision-ui-dashboard-react/static/css/main.76b9aba2.chunk.css",
-    "main.js": "/vision-ui-dashboard-react/static/js/main.bc907cf7.chunk.js",
-    "main.js.map": "/vision-ui-dashboard-react/static/js/main.bc907cf7.chunk.js.map",
+    "main.js": "/vision-ui-dashboard-react/static/js/main.661b83c7.chunk.js",
+    "main.js.map": "/vision-ui-dashboard-react/static/js/main.661b83c7.chunk.js.map",
     "runtime-main.js": "/vision-ui-dashboard-react/static/js/runtime-main.a09121f6.js",
     "runtime-main.js.map": "/vision-ui-dashboard-react/static/js/runtime-main.a09121f6.js.map",
     "static/js/2.225428de.chunk.js": "/vision-ui-dashboard-react/static/js/2.225428de.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "/vision-ui-dashboard-react/index.html",
     "static/css/main.76b9aba2.chunk.css.map": "/vision-ui-dashboard-react/static/css/main.76b9aba2.chunk.css.map",
     "static/js/2.225428de.chunk.js.LICENSE.txt": "/vision-ui-dashboard-react/static/js/2.225428de.chunk.js.LICENSE.txt",
-    "static/js/main.bc907cf7.chunk.js.LICENSE.txt": "/vision-ui-dashboard-react/static/js/main.bc907cf7.chunk.js.LICENSE.txt",
+    "static/js/main.661b83c7.chunk.js.LICENSE.txt": "/vision-ui-dashboard-react/static/js/main.661b83c7.chunk.js.LICENSE.txt",
     "static/media/avatar1.ce022770.png": "/vision-ui-dashboard-react/static/media/avatar1.ce022770.png",
     "static/media/avatar2.e81efbfa.png": "/vision-ui-dashboard-react/static/media/avatar2.e81efbfa.png",
     "static/media/avatar3.37c832d1.png": "/vision-ui-dashboard-react/static/media/avatar3.37c832d1.png",
@@ -19,7 +19,7 @@
     "static/media/avatar6.c8e1a05c.png": "/vision-ui-dashboard-react/static/media/avatar6.c8e1a05c.png",
     "static/media/billing-background-balance.a2267bef.png": "/vision-ui-dashboard-react/static/media/billing-background-balance.a2267bef.png",
     "static/media/billing-background-card.3d7d8701.png": "/vision-ui-dashboard-react/static/media/billing-background-card.3d7d8701.png",
-    "static/media/body-background.7d9a4bca.png": "/vision-ui-dashboard-react/static/media/body-background.7d9a4bca.png",
+    "static/media/body-background.7d7d88a8.png": "/vision-ui-dashboard-react/static/media/body-background.7d7d88a8.png",
     "static/media/car-profile.8cde6d4c.svg": "/vision-ui-dashboard-react/static/media/car-profile.8cde6d4c.svg",
     "static/media/cardimgfree.700a968e.png": "/vision-ui-dashboard-react/static/media/cardimgfree.700a968e.png",
     "static/media/graph-billing.5619b1ad.svg": "/vision-ui-dashboard-react/static/media/graph-billing.5619b1ad.svg",
@@ -44,6 +44,6 @@
     "static/js/runtime-main.a09121f6.js",
     "static/js/2.225428de.chunk.js",
     "static/css/main.76b9aba2.chunk.css",
-    "static/js/main.bc907cf7.chunk.js"
+    "static/js/main.661b83c7.chunk.js"
   ]
 }
