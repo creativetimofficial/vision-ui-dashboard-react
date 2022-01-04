@@ -81,7 +81,7 @@ function Sidenav({ color, brandName, routes, ...rest }) {
     if (window.innerWidth < 1440) {
       setTransparentSidenav(dispatch, false);
     }
-  }, [])
+  }, []);
 
   // Render all the routes from the routes.js (All the visible items on the Sidenav)
   const renderRoutes = routes.map(({ type, name, icon, title, noCollapse, key, route, href }) => {
@@ -142,7 +142,7 @@ function Sidenav({ color, brandName, routes, ...rest }) {
 
   return (
     <SidenavRoot {...rest} variant="permanent" ownerState={{ transparentSidenav, miniSidenav }}>
-      <VuiBox pt={3} pb={1} px={4} textAlign="center">
+      <VuiBox pt={3} pb={1} px={4} textAlign="center" sx={{ overflow: "unset !important" }}>
         <VuiBox
           display={{ xs: "block", xl: "none" }}
           position="absolute"

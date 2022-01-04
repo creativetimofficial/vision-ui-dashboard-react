@@ -154,7 +154,16 @@ function DashboardNavbar({ absolute, light, isMini }) {
               <VuiInput
                 placeholder="Type here..."
                 icon={{ component: "search", direction: "left" }}
-                sx={{ backgroundColor: "info.main !important" }}
+                sx={({ breakpoints }) => ({
+                  [breakpoints.up("xs")]: {
+                    flexDirection: "column",
+                    gap: "16px",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    maxWidth: "80px",
+                  },
+                  backgroundColor: "info.main !important",
+                })}
               />
             </VuiBox>
             <VuiBox color={light ? "white" : "inherit"}>
