@@ -155,11 +155,10 @@ function DashboardNavbar({ absolute, light, isMini }) {
                 placeholder="Type here..."
                 icon={{ component: "search", direction: "left" }}
                 sx={({ breakpoints }) => ({
-                  [breakpoints.up("xs")]: {
-                    flexDirection: "column",
-                    gap: "16px",
-                    justifyContent: "center",
-                    alignItems: "center",
+                  [breakpoints.down("sm")]: {
+                    maxWidth: "80px",
+                  },
+                  [breakpoints.only("sm")]: {
                     maxWidth: "80px",
                   },
                   backgroundColor: "info.main !important",

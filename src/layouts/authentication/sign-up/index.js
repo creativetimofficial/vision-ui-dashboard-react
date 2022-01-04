@@ -276,7 +276,7 @@ function SignIn() {
               Already have an account?{" "}
               <VuiTypography
                 component={Link}
-                to="/authentication/sign-up"
+                to="/authentication/sign-in"
                 variant="button"
                 color="white"
                 fontWeight="medium"
