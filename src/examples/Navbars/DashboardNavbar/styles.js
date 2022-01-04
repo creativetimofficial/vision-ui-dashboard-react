@@ -162,10 +162,10 @@ const navbarIconButton = ({ typography: { size }, breakpoints, palette: { grey, 
   },
 });
 
-const navbarMobileMenu = ({ breakpoints, palette: { grey } }) => ({
+const navbarMobileMenu = ({ breakpoints, palette: { white } }) => ({
   display: "inline-block",
   lineHeight: 0,
-  color: grey[500],
+  color: white.main,
 
   [breakpoints.up("xl")]: {
     display: "none",
