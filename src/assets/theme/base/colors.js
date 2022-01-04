@@ -131,6 +131,7 @@ export default {
   dark: {
     main: "#344767",
     focus: "#121241",
+    body: "#030c1d",
   },
 
   gradients: {

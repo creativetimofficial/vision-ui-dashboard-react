@@ -188,7 +188,7 @@ function SignIn() {
             </VuiBox>
             <GradientBorder
               minWidth="100%"
-              borderRadius={borders.borderRadius.form}
+              borderRadius={borders.borderRadius.lg}
               padding="1px"
               backgroundImage={radialGradient(
                 palette.gradients.borderLight.main,
@@ -196,7 +196,12 @@ function SignIn() {
                 palette.gradients.borderLight.angle
               )}
             >
-              <VuiInput placeholder="Your full name..." fontWeight="500" />
+              <VuiInput
+                placeholder="Your full name..."
+                sx={({ typography: { size } }) => ({
+                  fontSize: size.sm,
+                })}
+              />
             </GradientBorder>
           </VuiBox>
           <VuiBox mb={2}>
@@ -207,7 +212,7 @@ function SignIn() {
             </VuiBox>
             <GradientBorder
               minWidth="100%"
-              borderRadius={borders.borderRadius.form}
+              borderRadius={borders.borderRadius.lg}
               padding="1px"
               backgroundImage={radialGradient(
                 palette.gradients.borderLight.main,
@@ -215,7 +220,13 @@ function SignIn() {
                 palette.gradients.borderLight.angle
               )}
             >
-              <VuiInput type="email" placeholder="Your email..." fontWeight="500" />
+              <VuiInput
+                type="email"
+                placeholder="Your email..."
+                sx={({ typography: { size } }) => ({
+                  fontSize: size.sm,
+                })}
+              />
             </GradientBorder>
           </VuiBox>
           <VuiBox mb={2}>
@@ -226,7 +237,7 @@ function SignIn() {
             </VuiBox>
             <GradientBorder
               minWidth="100%"
-              borderRadius={borders.borderRadius.form}
+              borderRadius={borders.borderRadius.lg}
               padding="1px"
               backgroundImage={radialGradient(
                 palette.gradients.borderLight.main,
@@ -281,63 +292,3 @@ function SignIn() {
 }
 
 export default SignIn;
-{
-  /* <Card>
-  <VuiBox p={3} mb={1} textAlign="center">
-    <VuiTypography variant="h5" fontWeight="medium">
-      Register with
-    </VuiTypography>
-  </VuiBox>
-  <VuiBox mb={2}>
-    <Socials />
-  </VuiBox>
-  <Separator />
-  <VuiBox pt={2} pb={3} px={3}>
-    <VuiBox component="form" role="form">
-      <VuiBox mb={2}>
-        <VuiInput placeholder="Name" />
-      </VuiBox>
-      <VuiBox mb={2}>
-        <VuiInput type="email" placeholder="Email" />
-      </VuiBox>
-      <VuiBox mb={2}>
-        <VuiInput type="password" placeholder="Password" />
-      </VuiBox>
-      <VuiBox display="flex" alignItems="center">
-        <Checkbox checked={agreement} onChange={handleSetAgremment} />
-        <VuiTypography
-          variant="button"
-          fontWeight="regular"
-          onClick={handleSetAgremment}
-          sx={{ cursor: "poiner", userSelect: "none" }}
-        >
-          &nbsp;&nbsp;I agree the&nbsp;
-        </VuiTypography>
-        <VuiTypography component="a" href="#" variant="button" fontWeight="bold" textGradient>
-          Terms and Conditions
-        </VuiTypography>
-      </VuiBox>
-      <VuiBox mt={4} mb={1}>
-        <VuiButton variant="gradient" color="dark" fullWidth>
-          Sign Up
-        </VuiButton>
-      </VuiBox>
-      <VuiBox mt={3} textAlign="center">
-        <VuiTypography variant="button" color="text" fontWeight="regular">
-          Already have an account?&nbsp;
-          <VuiTypography
-            component={Link}
-            to="/authentication/sign-in"
-            variant="button"
-            color="dark"
-            fontWeight="bold"
-            textGradient
-          >
-            Sign in
-          </VuiTypography>
-        </VuiTypography>
-      </VuiBox>
-    </VuiBox>
-  </VuiBox>
-</Card>; */
-}

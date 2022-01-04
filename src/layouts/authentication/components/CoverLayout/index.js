@@ -62,7 +62,7 @@ function CoverLayout({
         action={{
           type: "external",
           route: "https://creative-tim.com/product/vision-ui-dashboard-pro-react",
-          label: "buy now",
+          label: "BUY NOW",
         }}
       />
       <VuiBox

@@ -25,7 +25,7 @@ function GradientBorder(props) {
   const { backgroundImage, children, borderRadius, width, minWidth, ...rest } = props;
   return (
     <VuiBox
-      padding="1px"
+      padding="2px"
       width={width}
       minWidth={minWidth}
       height="fit-content"

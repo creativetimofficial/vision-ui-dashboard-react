@@ -44,7 +44,7 @@ function IllustrationLayout({ color, header, title, description, illustration, c
         action={{
           type: "external",
           route: "https://creative-tim.com/product/vision-ui-dashboard-pro-react",
-          label: "buy now",
+          label: "BUY NOW",
         }}
       />
       <Grid container>
