@@ -376,9 +376,9 @@ At present, we officially aim to support the last two versions of the following 
 
 ## Reporting Issues
 
-We use GitHub Issues as the official bug tracker for the Purity UI Dashboard. Here are some advices for our users that want to report an issue:
+We use GitHub Issues as the official bug tracker for the Vision UI Dashboard. Here are some advices for our users that want to report an issue:
 
-1. Make sure that you are using the latest version of the Purity UI Dashbaord. Check the CHANGELOG from your dashboard on our [CHANGE LOG File](https://github.com/creativetimofficial/vision-ui-dashboard-react/blob/main/CHANGELOG.md?ref=readme-vudreact).
+1. Make sure that you are using the latest version of the Vision UI Dashbaord. Check the CHANGELOG from your dashboard on our [CHANGE LOG File](https://github.com/creativetimofficial/vision-ui-dashboard-react/blob/main/CHANGELOG.md?ref=readme-vudreact).
 2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
 3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
 
