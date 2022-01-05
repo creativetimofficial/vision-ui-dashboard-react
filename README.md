@@ -45,7 +45,7 @@ Let us know your thoughts below. And good luck with development!
 
 ## Table of Contents
 
-- [Vision UI Dashboard Free React](https://demos.creative-tim.com/vision-ui-dashboard-react/dashboards/default?ref=readme-vudreact)
+- [Vision UI Dashboard Free React](https://demos.creative-tim.com/vision-ui-dashboard-react/?ref=readme-vudreact)
 - [Table of Contents](#table-of-contents)
 - [Versions](#versions)
 - [Demo](#demo)
