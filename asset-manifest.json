@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/vision-ui-dashboard-react/static/css/main.76b9aba2.chunk.css",
-    "main.js": "/vision-ui-dashboard-react/static/js/main.1de22c6c.chunk.js",
-    "main.js.map": "/vision-ui-dashboard-react/static/js/main.1de22c6c.chunk.js.map",
+    "main.js": "/vision-ui-dashboard-react/static/js/main.89aaeddc.chunk.js",
+    "main.js.map": "/vision-ui-dashboard-react/static/js/main.89aaeddc.chunk.js.map",
     "runtime-main.js": "/vision-ui-dashboard-react/static/js/runtime-main.89f1faa9.js",
     "runtime-main.js.map": "/vision-ui-dashboard-react/static/js/runtime-main.89f1faa9.js.map",
     "static/js/2.23b0d740.chunk.js": "/vision-ui-dashboard-react/static/js/2.23b0d740.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "/vision-ui-dashboard-react/index.html",
     "static/css/main.76b9aba2.chunk.css.map": "/vision-ui-dashboard-react/static/css/main.76b9aba2.chunk.css.map",
     "static/js/2.23b0d740.chunk.js.LICENSE.txt": "/vision-ui-dashboard-react/static/js/2.23b0d740.chunk.js.LICENSE.txt",
-    "static/js/main.1de22c6c.chunk.js.LICENSE.txt": "/vision-ui-dashboard-react/static/js/main.1de22c6c.chunk.js.LICENSE.txt",
+    "static/js/main.89aaeddc.chunk.js.LICENSE.txt": "/vision-ui-dashboard-react/static/js/main.89aaeddc.chunk.js.LICENSE.txt",
     "static/media/avatar1.1d9e1978.png": "/vision-ui-dashboard-react/static/media/avatar1.1d9e1978.png",
     "static/media/avatar2.b8132c3c.png": "/vision-ui-dashboard-react/static/media/avatar2.b8132c3c.png",
     "static/media/avatar3.4d26ce02.png": "/vision-ui-dashboard-react/static/media/avatar3.4d26ce02.png",
@@ -23,12 +23,12 @@
     "static/media/cardimgfree.5771cbbb.png": "/vision-ui-dashboard-react/static/media/cardimgfree.5771cbbb.png",
     "static/media/graph-billing.b9f0ef12.svg": "/vision-ui-dashboard-react/static/media/graph-billing.b9f0ef12.svg",
     "static/media/green-lightning.c20f110b.svg": "/vision-ui-dashboard-react/static/media/green-lightning.c20f110b.svg",
-    "static/media/logo-invision.f3413d25.svg": "/vision-ui-dashboard-react/static/media/logo-invision.f3413d25.svg",
-    "static/media/logo-jira.f9c1ddbe.svg": "/vision-ui-dashboard-react/static/media/logo-jira.f9c1ddbe.svg",
-    "static/media/logo-slack.d8feb9c5.svg": "/vision-ui-dashboard-react/static/media/logo-slack.d8feb9c5.svg",
-    "static/media/logo-spotify.3f055cde.svg": "/vision-ui-dashboard-react/static/media/logo-spotify.3f055cde.svg",
-    "static/media/logo-webdev.88aae85b.svg": "/vision-ui-dashboard-react/static/media/logo-webdev.88aae85b.svg",
-    "static/media/logo-xd.77e7dd15.svg": "/vision-ui-dashboard-react/static/media/logo-xd.77e7dd15.svg",
+    "static/media/logo-invision.78bd5901.svg": "/vision-ui-dashboard-react/static/media/logo-invision.78bd5901.svg",
+    "static/media/logo-jira.2883b459.svg": "/vision-ui-dashboard-react/static/media/logo-jira.2883b459.svg",
+    "static/media/logo-slack.383191ac.svg": "/vision-ui-dashboard-react/static/media/logo-slack.383191ac.svg",
+    "static/media/logo-spotify.88c0d071.svg": "/vision-ui-dashboard-react/static/media/logo-spotify.88c0d071.svg",
+    "static/media/logo-webdev.a00560c3.svg": "/vision-ui-dashboard-react/static/media/logo-webdev.a00560c3.svg",
+    "static/media/logo-xd.b09b6daa.svg": "/vision-ui-dashboard-react/static/media/logo-xd.b09b6daa.svg",
     "static/media/profile-1.b93e4339.png": "/vision-ui-dashboard-react/static/media/profile-1.b93e4339.png",
     "static/media/profile-2.9c96bf40.png": "/vision-ui-dashboard-react/static/media/profile-2.9c96bf40.png",
     "static/media/profile-3.bc197530.png": "/vision-ui-dashboard-react/static/media/profile-3.bc197530.png",
@@ -43,6 +43,6 @@
     "static/js/runtime-main.89f1faa9.js",
     "static/js/2.23b0d740.chunk.js",
     "static/css/main.76b9aba2.chunk.css",
-    "static/js/main.1de22c6c.chunk.js"
+    "static/js/main.89aaeddc.chunk.js"
   ]
 }
