@@ -67,7 +67,6 @@ PageLayout.defaultProps = {
 
 // Typechecking props for the PageLayout
 PageLayout.propTypes = {
-  background: PropTypes.oneOf(["white", "light", "default"]),
   children: PropTypes.node.isRequired,
 };
 

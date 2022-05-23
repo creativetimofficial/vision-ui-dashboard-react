@@ -61,7 +61,7 @@ VuiBadge.propTypes = {
     "light",
     "dark",
   ]),
-  variant: PropTypes.oneOf(["gradient", "contained"]),
+  variant: PropTypes.oneOf(["gradient", "contained", "standard"]),
   size: PropTypes.oneOf(["xs", "sm", "md", "lg"]),
   circular: PropTypes.bool,
   indicator: PropTypes.bool,

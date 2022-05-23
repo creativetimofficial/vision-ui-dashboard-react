@@ -68,7 +68,6 @@ DefaultNavbarLink.propTypes = {
   icon: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   route: PropTypes.string.isRequired,
-  light: PropTypes.bool.isRequired,
 };
 
 export default DefaultNavbarLink;

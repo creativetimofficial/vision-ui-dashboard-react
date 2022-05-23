@@ -82,6 +82,7 @@ Transaction.propTypes = {
     "error",
     "light",
     "dark",
+    "text",
   ]).isRequired,
   icon: PropTypes.node.isRequired,
   name: PropTypes.string.isRequired,
