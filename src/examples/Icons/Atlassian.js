@@ -45,8 +45,8 @@ function Atlassian({ size }) {
           y2="19.6995"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0052CC" />
-          <stop offset="0.92" stop-color="#2684FF" />
+          <stop stopColor="#0052CC" />
+          <stop offset="0.92" stopColor="#2684FF" />
         </linearGradient>
       </defs>
     </svg>

@@ -90,6 +90,7 @@ NotificationItem.propTypes = {
     "error",
     "light",
     "dark",
+    "text",
   ]),
   image: PropTypes.node.isRequired,
   title: PropTypes.arrayOf(PropTypes.string).isRequired,

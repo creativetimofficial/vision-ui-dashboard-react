@@ -82,6 +82,7 @@ VuiTypography.propTypes = {
     "dark",
     "text",
     "white",
+    "logo",
   ]),
   fontWeight: PropTypes.oneOf([false, "light", "regular", "medium", "bold"]),
   textTransform: PropTypes.oneOf(["none", "capitalize", "uppercase", "lowercase"]),

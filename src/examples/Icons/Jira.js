@@ -28,7 +28,7 @@ function Jira({ size }) {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_580_3434)">
+      <g clipPath="url(#clip0_580_3434)">
         <path
           d="M20.2596 10.4198L11.3968 1.4907L10.538 0.625488L3.86637 7.34711L0.815567 10.4198C0.663181 10.5741 0.577637 10.783 0.577637 11.0006C0.577637 11.2183 0.663181 11.4272 0.815567 11.5815L6.91074 17.7223L10.538 21.3758L17.2088 14.6542L17.3127 14.5504L20.2596 11.5861C20.336 11.5097 20.3966 11.4189 20.438 11.3188C20.4793 11.2187 20.5006 11.1114 20.5006 11.003C20.5006 10.8946 20.4793 10.7872 20.438 10.6871C20.3966 10.5871 20.336 10.4962 20.2596 10.4198ZM10.538 14.0687L7.49276 11.0006L10.538 7.93257L13.5824 11.0006L10.538 14.0687Z"
           fill="#2684FF"
@@ -51,8 +51,8 @@ function Jira({ size }) {
           y2="9.07924"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.18" stop-color="#0052CC" />
-          <stop offset="1" stop-color="#2684FF" />
+          <stop offset="0.18" stopColor="#0052CC" />
+          <stop offset="1" stopColor="#2684FF" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_580_3434"
@@ -62,8 +62,8 @@ function Jira({ size }) {
           y2="1182.07"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.18" stop-color="#0052CC" />
-          <stop offset="1" stop-color="#2684FF" />
+          <stop offset="0.18" stopColor="#0052CC" />
+          <stop offset="1" stopColor="#2684FF" />
         </linearGradient>
         <clipPath id="clip0_580_3434">
           <rect x="0.5" y="0.500031" width="20" height="21" fill="white" />

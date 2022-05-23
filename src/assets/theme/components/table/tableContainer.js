@@ -34,7 +34,7 @@ export default {
       "& thead": {
         "& tr": {
           "& th": {
-            "&:first-child": {
+            "&:first-of-type": {
               paddingLeft: "0px !important",
             },
           },
@@ -43,7 +43,7 @@ export default {
       "& .MuiTableBody-root": {
         "& tr": {
           "& td": {
-            "&:first-child": {
+            "&:first-of-type": {
               paddingLeft: "0px !important",
               "& .MuiBox-root": {
                 paddingLeft: "0px !important",
