@@ -93,7 +93,7 @@ function SignIn() {
                   justify="center"
                   align="center"
                   bg="rgb(19,21,54)"
-                  borderRadius="15px"
+                  borderradius="15px"
                   sx={({ palette: { secondary }, borders: { borderRadius } }) => ({
                     borderRadius: borderRadius.xl,
                     padding: "25px",
@@ -121,7 +121,7 @@ function SignIn() {
                   justify="center"
                   align="center"
                   bg="rgb(19,21,54)"
-                  borderRadius="15px"
+                  borderradius="15px"
                   sx={({ palette: { secondary }, borders: { borderRadius } }) => ({
                     borderRadius: borderRadius.xl,
                     padding: "25px",
@@ -149,7 +149,7 @@ function SignIn() {
                   justify="center"
                   align="center"
                   bg="rgb(19,21,54)"
-                  borderRadius="15px"
+                  borderradius="15px"
                   sx={({ palette: { secondary }, borders: { borderRadius } }) => ({
                     borderRadius: borderRadius.xl,
                     padding: "25px",

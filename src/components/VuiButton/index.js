@@ -62,6 +62,7 @@ VuiButton.propTypes = {
     "error",
     "light",
     "dark",
+    "text",
   ]),
   circular: PropTypes.bool,
   iconOnly: PropTypes.bool,

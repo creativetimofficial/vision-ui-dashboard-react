@@ -109,10 +109,16 @@ MasterCard.defaultProps = {
 
 // Typechecking props for the MasterCard
 MasterCard.propTypes = {
-  color: PropTypes.oneOf(["white", "secondary", "info", "success", "warning", "error", "dark"]),
-  number: PropTypes.number.isRequired,
-  holder: PropTypes.string.isRequired,
-  expires: PropTypes.string.isRequired,
+  color: PropTypes.oneOf([
+    "white",
+    "secondary",
+    "info",
+    "success",
+    "warning",
+    "error",
+    "dark",
+    "text",
+  ]),
 };
 
 export default MasterCard;

@@ -223,16 +223,6 @@ CoverLayout.defaultProps = {
 
 // Typechecking props for the CoverLayout
 CoverLayout.propTypes = {
-  color: PropTypes.oneOf([
-    "primary",
-    "secondary",
-    "info",
-    "success",
-    "warning",
-    "error",
-    "dark",
-    "light",
-  ]),
   header: PropTypes.node,
   title: PropTypes.string,
   description: PropTypes.string,
