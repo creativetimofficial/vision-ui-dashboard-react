@@ -81,10 +81,10 @@ Quick start options:
 
 - Buy from [Creative Tim](https://www.creative-tim.com/product/vision-ui-dashboard-react?ref=readme-vudreact).
 
-## Terminal Commands
+## Preparation
 
-1. Download and Install NodeJs LTS version from [NodeJs Official Page](https://nodejs.org/en/download/).
-2. Navigate to the root / directory and run yarn install/npm install to install our local dependencies.
+1. Download and Install NodeJs 16 from the [official website](https://nodejs.org/en/about/previous-releases) or use [nvm](https://github.com/nvm-sh/nvm) to quickly switch versions.
+2. Navigate to the projects root directory and run `yarn install` or `npm install` to install the projects dependencies.
 
 ## Documentation
 
