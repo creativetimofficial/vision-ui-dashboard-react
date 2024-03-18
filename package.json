@@ -15,10 +15,10 @@
 	},
 	"dependencies": {
 		"@emotion/cache": "11.4.0",
-		"@emotion/react": "^11.9.3",
-		"@emotion/styled": "^11.9.3",
+		"@emotion/react": "^11.11.4",
+		"@emotion/styled": "^11.11.0",
 		"@mui/icons-material": "5.1.1",
-		"@mui/material": "^5.9.2",
+		"@mui/material": "^5.15.13",
 		"@mui/styled-engine": "5.1.1",
 		"@mui/styles": "^5.2.0",
 		"apexcharts": "^3.30.0",
@@ -39,11 +39,11 @@
 		"web-vitals": "1.0.1"
 	},
 	"devDependencies": {
-		"eslint": "^7.11.0",
 		"@testing-library/jest-dom": "5.11.4",
 		"@testing-library/react": "11.1.0",
 		"@testing-library/user-event": "12.1.10",
-		"react-scripts": "4.0.3"
+		"eslint": "^7.11.0",
+		"react-scripts": "^5.0.1"
 	},
 	"scripts": {
 		"start": "react-scripts start",
